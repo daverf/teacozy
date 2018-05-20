@@ -1,0 +1,129 @@
+body {margin: 0px;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header */
+
+.header {width: 100%;
+  height:69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.nav {display: flex;
+justify-content: space-between;
+text-decoration: underline;
+}
+
+.nav span {margin: 0px 10px 0px 10px;}
+
+.logo {height: 50px;
+margin-left: 10px;}
+
+.logo img {height: 50px;}
+
+a:link {color: seashell;}
+a:visited {color: seashell;}
+a:hover {color: seashell;}
+a:active {color: seashell;}
+
+/* main content section */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 70px;
+  z-index: 1;}
+
+/* mission content box */
+
+#mission {display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url("images/img-mission-background.jpg");
+    align-items: center;
+  }
+
+#mission h2 {margin: 5px;}
+#mission h4 {margin: 5px;}
+
+/* featured teas content box */
+
+#featured {width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;}
+
+.selections {display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+width: 100%;
+height: auto;}
+
+.menu_image {height: 200px;
+width: 300px;
+margin: 0px 10px 0px 10px;}
+
+.menuitem h4 {margin-top: 10px;}
+
+/* locations content box */
+
+#locations {
+  background-image: url("images/img-locations-background.jpg");
+  width: 1200px;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 25px;}
+
+#locations h2 {margin-bottom: 15px;}
+
+.addresses {display: flex;
+margin: 0px;}
+
+.addressbox {
+width: 300px;
+margin: 0px 20px 0px 20px;
+background-color: black;
+opacity: 1;}
+
+/* footer */
+
+footer { width: 100%;
+height: 200px;
+background-color: black;
+position: relative;
+top: 70px;}
+
+.banner {background-color: black;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    }
+
+.banner h2 {margin: 10px;}
+.banner h4 {margin: 10px;}
+
+
+
+.copy {text-align: left; position: relative;
+top: 70px; left: 20px;}
